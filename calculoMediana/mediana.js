@@ -14,7 +14,7 @@ lista.sort(
     }
 );
 
-function calcularMediana() {
+function calcularMediana(lista) {
     const mitadLista = lista.length / 2;
     let mediana = 0;
     if ((lista.length % 2) == 0) {
@@ -22,6 +22,5 @@ function calcularMediana() {
     } else {
         mediana = lista[parseInt(mitadLista)];
     }
-
     return mediana;
 }
