@@ -14,10 +14,10 @@
 - Cuarto paso: Integrar JS con HTML
 
 ## Taller #3: 
-- Primer paso: 
-- Segundo paso: 
-- Tercer paso: 
-- Cuarto paso: 
+- Primer paso: Definir las formulas
+- Segundo paso: Implementar las formulas en JavaScript
+- Tercer paso: Crear funciones
+- Cuarto paso: Integrar JS con HTML
 
 ## Taller #4: 
 - Primer paso: 
