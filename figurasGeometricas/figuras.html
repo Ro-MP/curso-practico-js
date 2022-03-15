@@ -7,9 +7,41 @@
     <title>Figuras geométricas | C práctico Platzi</title>
 </head>
 <body>
-    <h1>
-        Figuras geométricas
-    </h1>
+    <header>
+        <h1>Figuras Geométricas</h1>
+        <p>Primer taller del curso práctico de JavaScript</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Calcula el área y perimetro de un cuadrado</h2>
+            <form>
+                <label for="inputCuadrado">
+                    Escribe cuanto mide cada lado de tu cuadrado:
+                </label>
+                <input id="inputCuadrado"type="number">
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
+                <button type="button" onclick="calcularAreaCuadrado()">Calcular el area</button>
+            </form>
+        </section>
+        <section>
+            <h2>Calcula el área y perimetro de un triángulo</h2>
+            <form>
+                <label for="inputTrianguloLado">
+                    Escribe cuanto mide uno de los lados iguales del triangulo:
+                </label>
+                <input id="inputTrianguloLado"type="number">
+
+                <label for="inputTrianguloBase">
+                    Escribe cuanto mide la base del triangulo:
+                </label>
+                <input id="inputTrianguloBase"type="number">
+
+                <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perimetro</button>
+                <button type="button" onclick="calcularAreaTriangulo()">Calcular el area</button>
+            </form>
+        </section>
+    </main>
 
     <script src="./figuras.js"></script>
 </body>
